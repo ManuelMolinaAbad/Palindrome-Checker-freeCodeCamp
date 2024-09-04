@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+  background: black;
+  color: white;
+  font-size: 20px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#content-wrapper {
+  width: 80%;
+  margin: 20px auto;
+  max-width: 600px;
+  min-width: 200px;
+}
+
+fieldset {
+  border-color: red;
+}
+
+legend {
+  margin: auto;
+}
+
+label, input {
+  margin-left: 10%;
+  width: 80%;
+}
+
+input, button {
+  border-radius: 5px;
+  border-color: white;
+}
+
+label {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 50%;
+  margin: 5px 0px 5px 25%;
+  font-size: 16px;
+}
+
+#result {
+  width: 90%;
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+}
+
+#explanation {
+  width: 65%;
+  margin: 5px auto;
+  border-radius: 3px;
+  color: yellow;
+}
+
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 16px;
+    overflow: hidden;
+  }
+
+  button {
+    font-size: 12px;
+  }
+}
